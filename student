@@ -1,0 +1,14 @@
+class Student:
+ def __init__(self,name,score):
+    self.name = name
+    self.score = score
+ def display_info(self):
+    print(f"Name:{self.name}")
+    print(f"Score:{self.score}")
+   
+ #first.student
+ student1 = Student("Dayan", 19)   
+ student1.display_info()
+ #second.student
+ student2 = Student("Taha", 18)
+ student2.display_info()
