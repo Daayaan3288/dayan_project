@@ -1,0 +1,7 @@
+#How to find max and min 
+numbers = [12,67,9,0,4,33,76,688,98,90,21,789,433,7,45,6,11]
+max_number = max(numbers)
+min_number = min(numbers)
+ 
+print("The maximum number is",max_number)
+print("The minimum number is",min_number)

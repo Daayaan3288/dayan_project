@@ -1,0 +1,14 @@
+class Employee:
+ def__init__(self,name,employee-id):
+  self.__employee-id = employee-id
+  self.__name = name 
+def display_info(self):
+    print(f"Name:{self.__name}")
+    print(f"Employee ID:{self.__employee-id}")
+
+employee1 = Employee("ali",242423)
+employee.display_info()
+
+
+employee2 = Employee("reza",252423)
+employee.display_info()

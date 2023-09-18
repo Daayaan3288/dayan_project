@@ -12,3 +12,7 @@ class Student:
  #second.student
  student2 = Student("Taha", 18)
  student2.display_info()
+ #third.student
+ student3 = Student("Taha", 18)
+ student3.display_info()
+ 
