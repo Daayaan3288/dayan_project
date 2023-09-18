@@ -1,0 +1,14 @@
+class Person:
+  def__init__(self,name,age,occupation):
+   self.name = name
+   self.ago = age
+   self.occupation = occupation
+#creat instances of person class
+person1 = Person("tata",40,"doctor") 
+person2 = Person("raha",20,"singer") 
+person3 = Person("arsam",1,"kid") 
+#attributes of the instances
+print(person1.name,person1.age,person1.occupation) 
+print(person1.name,person1.age,person1.occupation)
+print(person3.name,person3.age,person3.occupation)add
+
