@@ -1,0 +1,35 @@
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    
+    def eat(self):
+        print("The animal is eating")
+    
+    def sleep(self):
+        print("The animal is sleeping")
+    
+class Dog(Animal):
+    def __init__(self, name):
+        super().__init__(name)
+    
+    def bark(self):
+        print("The dog is barking")
+        
+class Cat(Animal):
+    def __init__(self, name):
+        super().__init__(name)
+    
+    def meow(self):
+        print("The cat is meowing")
+        
+animal = Animal("Animal")
+animal.eat()
+animal.sleep()
+dog = Dog("Dog")
+dog.bark()
+dog.eat()
+dog.sleep()
+cat = Cat("Cat")
+cat.meow()
+cat.eat()
+cat.sleep()
