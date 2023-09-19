@@ -1,0 +1,3 @@
+num = int(input("لطفا عدد صحیح را وارد کنید: "))
+converted_num = str(num)
+print("عدد ورودی به رشته تبدیل شد:", converted_num)
