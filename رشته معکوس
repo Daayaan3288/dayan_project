@@ -1,0 +1,4 @@
+#رشته معکوس
+string = "where are you going????"
+reversed_string = string[::-1]
+print("رشته معکوس:", reversed_string)

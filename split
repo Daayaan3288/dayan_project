@@ -1,0 +1,3 @@
+sentence = "I love myself"
+words = sentence.split()
+print(words)

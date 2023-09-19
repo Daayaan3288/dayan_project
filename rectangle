@@ -1,0 +1,16 @@
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+    def calculate_area(self):
+        area = self.length * self.width
+        return area
+    def calculate_perimeter(self):
+        perimeter = 2 * (self.length + self.width)
+        return perimeter
+# مثال استفاده
+rectangle = Rectangle(5, 8)
+area = rectangle.calculate_area()
+perimeter = rectangle.calculate_perimeter()
+print("مساحت مستطیل: ", area)
+print("محیط مستطیل: ", perimeter)

@@ -1,0 +1,7 @@
+text = "Hello, world!"
+reversed_text = ''.join(reversed(text))
+print(reversed_text)
+
+text = "Hi. Im glad to see you . my name is dayan"
+reversed_text = ''.join(reversed(text))
+print(reversed_text)
