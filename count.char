@@ -1,0 +1,8 @@
+def count_char(string, char):
+    count = string.count(char)
+    return count
+# نمونه ورودی
+string = "meooooow"
+char = "o"
+result = count_char(string, char)
+print(f"The character '{char}' appears {result} times in the string '{string}'.")

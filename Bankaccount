@@ -1,0 +1,20 @@
+class BankAccount:
+    def __init__(self, initial_balance, account_number):
+        self._balance = initial_balance
+        self.__account_number = account_number
+    def deposit(self, amount):
+        self._balance += amount
+        print(f"{amount} deposited into account {self.__account_number}. New balance is {self._balance}")
+    def withdraw(self, amount):
+        if amount > self._balance:
+            print("Insufficient funds!")
+        else:
+            self._balance -= amount
+            print(f"{amount} withdrawn from account {self.__account_number}. New balance is {self._balance}")
+            
+            # ایجاد یک نمونه از کلاس BankAccount
+account = BankAccount(1000, '1234567890')
+# واریز وجه
+account.deposit(500)
+# برداشت وجه
+account.withdraw(200)

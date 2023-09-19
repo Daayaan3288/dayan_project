@@ -12,6 +12,7 @@ class Dog(Animal):
     def __init__(self, name):
         super().__init__(name)
     
+
     def bark(self):
         print("The dog is barking")
         
@@ -25,11 +26,11 @@ class Cat(Animal):
 animal = Animal("Animal")
 animal.eat()
 animal.sleep()
-dog = Dog("Dog")
+dog = Dog("Dog ")
 dog.bark()
 dog.eat()
 dog.sleep()
 cat = Cat("Cat")
 cat.meow()
 cat.eat()
-cat.sleep()
+cat.sleep() 

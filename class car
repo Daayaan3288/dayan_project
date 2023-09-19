@@ -5,4 +5,9 @@ class Car:
         self.engine_status = "ON"
         print("Engine started.")
     def stop_engine(self):
-        
+        self.engine_status = "OFF"
+        print("Engine stopped.")
+# تست کلاس Car  :]]
+my_car = Car()
+my_car.start_engine()  # خروجی: Engine started.
+my_car.stop_engine()  # خروجی: Engine stopped.
