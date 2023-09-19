@@ -1,0 +1,8 @@
+#first step: creat a list with duplicate elements or numbers :))
+numbers = [1,24,,63,4,5,6,7,18,9,0,1,6,74,78,2,34,41,90,63,0,]
+
+#second step:remove duplicates using set()  :)) 
+unique_numbers = set(numbers) 
+
+#third step :print unique numbers ^^
+print (unique_numbers)
